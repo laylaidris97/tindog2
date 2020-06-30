@@ -1,0 +1,159 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: "Montserrat-Bold";
+
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings  */
+
+.big-heading{
+  font-family: "Montserrat-Black";
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+
+.downlad-btn{
+  margin: 5% 3% 5% 0;
+}
+/* Title  */
+#title{
+  text-align: left;
+}
+/* Title Image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* for a screen smaller than 1028 px */
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+
+  }
+}
+
+/* FEAUTERS SECTION */
+/* Affecting the font awesome emojis */
+#features{
+  position: relative;
+}
+.feature-title{
+  font-size: 1.5rem;
+  padding-top: 5%;
+}
+
+
+.icon{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* affecting the fetures under the emojis */
+.feature-box{
+  padding: 3%;
+}
+
+/* Testimonials SECTION */
+#testimonials{
+  background-color:#ef8172;
+}
+
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+
+#press{
+  background-color:#ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing  */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+
+/* footer */
+
+#footer{
+  padding: 4% 15%;
+}
+.Social-icon{
+  margin: 20px 10px;
+}
